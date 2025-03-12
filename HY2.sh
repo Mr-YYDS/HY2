@@ -222,7 +222,7 @@ insthysteria(){
     fi
     ${PACKAGE_INSTALL} curl wget sudo qrencode procps iptables-persistent netfilter-persistent
 
-    wget -N https://raw.githubusercontent.com/Mr-YYDS/HY2/refs/heads/main/hy2/install_server.sh
+    wget -N https://raw.githubusercontent.com/Mr-YYDS/HY2/refs/heads/main/install_server.sh
     bash install_server.sh
     rm -f install_server.sh
 
